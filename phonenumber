@@ -1,9 +1,0 @@
-import phonenumbers 
-  
-# Parsing String to Phone number 
-# Phone number format: (+Countrycode)xxxxxxxxxx 
-phoneNumber = phonenumbers.parse("+919876543210") 
-  
-# This will print the phone number and  
-# it's basic details. 
-print(phoneNumber) 
